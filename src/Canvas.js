@@ -65,7 +65,7 @@ class Canvas extends Component {
         const x = event.nativeEvent.offsetX;
         const y = event.nativeEvent.offsetY;
         const { coords, height, width } = this.state;
-
+ 
         //Checking to ensure we are still within the canvas //
         if (x > 0 && y > 0 && x < width && y < height) {
             // If the mouse has been clicked and is held down//
